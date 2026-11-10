@@ -1,4 +1,4 @@
-# The AI Admissibility Framework: Making AI-Enabled Systems Governable
+# AI Admissibility: Making AI-Enabled Systems Governable
 Most approaches to AI safety focus on improving the model, through training, testing, or guardrails.
 In practice, this is not sufficient.
 
@@ -10,7 +10,7 @@ AI systems do not behave deterministically. They generate outputs based on patte
 As a result, AI systems can take actions without reliable control over whether those actions should occur.
 
 ## A Different Approach: Control the System, Not the Model
-The AI Admissibility Framework addresses this problem by shifting the focus from controlling model behavior to enforcing system constraints.
+AI Admissibility addresses this problem by shifting the focus from controlling model behavior to enforcing system constraints.
 
 Instead of trying to make the AI “behave”, the system defines what is allowed, and enforces it before any action occurs.
 
@@ -28,8 +28,8 @@ Across real-world AI systems, the same types of failures appear:
 
 These are not edge cases; they are structural issues in how AI systems are built and used. Each of these failures reflects a missing control.
 
-## The Admissibility Framework in Practice
-The AI Admissibility Framework ensures that actions are only allowed when four conditions are met:
+## Admissibility in Practice
+AI Admissibility ensures that actions are only allowed when four conditions are met:
 
 Authority - actions are tied to a valid identity, scoped permissions, and accountable owner
  → establishes who or what is acting, on whose behalf, under what authority, and who remains accountable
@@ -47,7 +47,7 @@ Admissibility is enforced at an Admissibility Boundary where actions are evaluat
 
 Together, these controls ensure that actions are evaluated before they occur, rather than only observed afterward.
 
-In practical use, the framework asks whether the AI is acting under a known identity, whether its actions are constrained, whether its inputs are trustworthy, and whether its behavior can be reconstructed.
+In practical use, the approach asks whether the AI is acting under a known identity, whether its actions are constrained, whether its inputs are trustworthy, and whether its behavior can be reconstructed.
 
 If you want to ensure control, it means asking:
     Who is this AI acting as? (you, a tool, a shared system?)

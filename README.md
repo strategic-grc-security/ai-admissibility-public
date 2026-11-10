@@ -1,7 +1,7 @@
-# AI Admissibility Framework
+# AI Admissibility
 
 ## What it is
-The AI Admissibility Framework is a system governance model for determining whether AI-driven behavior should be permitted to affect a system.
+AI Admissibility is a system governance model for determining whether AI-driven behavior should be permitted to affect a system.
 
 ## Core idea
 AI governance should not depend on making models behave safely. It should determine whether AI-driven behavior is admissible within the system before action occurs.
@@ -21,7 +21,7 @@ Current AI governance often relies on policies, guardrails, testing, and monitor
 Admissibility introduces an explicit decision boundary: before AI-driven behavior affects a system, the system must determine whether the action is allowed.
 
 ## Relationship to the Control Intent Engine
-The Admissibility Framework is complemented by the Control Intent Engine, which evaluates governance intent against system reality and helps operationalize admissibility conditions in practice. The Control Intent Engine is a complementary mechanism for evaluating whether those governing conditions are present in a real system.
+AI Admissibility is complemented by the Control Intent Engine, which evaluates governance intent against system reality and helps operationalize admissibility conditions in practice. The Control Intent Engine is a complementary mechanism for evaluating whether those governing conditions are present in a real system.
 [Control Intent Engine](https://github.com/daphne-apollo/control-intent-engine-public)
 
 ## Repository contents
@@ -40,7 +40,7 @@ Links:
 - [AI Coding Agent Example](docs/ai-coding-agent-example.md)
 
 ## Status
-This repository contains the public overview of the AI Admissibility Framework. A full working paper is now available in the companion repository: [AI Admissibility Framework Working Paper](https://github.com/strategic-grc-security/ai-admissibility-paper-public)
+This repository contains the public overview of AI Admissibility. A full working paper is now available in the companion repository: [AI Admissibility Working Paper](https://github.com/strategic-grc-security/ai-admissibility-paper-public)
 
 ## License and Use
 
